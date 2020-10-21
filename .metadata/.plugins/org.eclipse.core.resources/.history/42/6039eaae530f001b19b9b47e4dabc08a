@@ -1,0 +1,16 @@
+import java.util.ArrayList;
+
+public class Ex05 {
+
+   public static void main(String[] args) {
+      ArrayList<Info> list = new ArrayList<Info>();
+      Info in = new Info ();
+      in.name = "hanna";
+      in.number = 1234;
+      
+      list.add(in); 
+      
+      System.out.println (list.get(0));
+   }
+
+}

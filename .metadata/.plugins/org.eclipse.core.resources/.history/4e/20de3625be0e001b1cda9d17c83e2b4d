@@ -1,0 +1,29 @@
+import java.util.Scanner;
+public class OverLoadingExam {
+			int color;
+			String strColor;
+			Scanner s = new Scanner(System.in);
+			
+			
+			public void setColor(int color) {
+				this.color=3;
+				System.out.println(this.color);
+				
+			}
+			
+			 public void setColor(String color) {
+					this.strColor="red";
+				System.out.println(this.strColor);
+				
+			}
+			
+			
+	public static void main(String[] args) {
+		OverLoadingExam or = new OverLoadingExam();
+		or.setColor(20);
+		or.setColor("Red");
+		System.out.println(or.Color+or.strColor);
+
+	}
+
+}

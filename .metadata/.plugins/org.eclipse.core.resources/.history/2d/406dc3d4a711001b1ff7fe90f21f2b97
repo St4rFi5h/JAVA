@@ -1,0 +1,12 @@
+package com.minigame;
+
+public class User extends Score {
+	public String name;
+	public int coin;
+
+	public static void main(String[]args) {
+		User usr = new User();
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+
+public class StudentExample{
+
+	public static void main(String[] args) {
+	Student studnet = new Student("ȫ�浿","123456-12321421",1);
+	System.out.println("name : "+Student.name);
+	System.out.println("ssn : "+Student.ssn);
+	System.out.println("studentNo : "+Student.studentNo);
+	}
+
+}

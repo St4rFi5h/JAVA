@@ -1,0 +1,25 @@
+import javax.swing.JButton;
+import javax.swing.JFrame;
+public class MyFrame extends JFrame {
+	MyFrame(){
+		setTitle("첫번쨰 프레임");
+		setSize(800,800);
+		setVisible(true);
+		
+	}
+
+	public static void main(String[] args) {
+		MyFrame mf = new MyFrame();
+		JButton button = new JButton("버튼");
+		this.add(button);
+	
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+		setTitle("MyFrameTest1"); // 프레임 타이틀 설정
+
+		setVisible(true); // 프레임을 화면에 표시
+		
+
+	}
+
+}

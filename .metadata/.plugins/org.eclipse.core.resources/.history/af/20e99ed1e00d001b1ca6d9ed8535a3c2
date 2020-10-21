@@ -1,0 +1,35 @@
+import javax.swing.JButton;
+import javax.swing.JFrame;
+public class MyFrame extends JFrame {
+	
+	static int sum =0 ;
+	MyFrame(){
+		JButton button = new JButton("빢빢이");
+
+		setTitle("첫번쨰 프레임");
+		setSize(400,300);
+		setVisible(true);
+		this.add(button);
+		button.setBounds(30, 170, 122, 30);
+		button.addActionListener(event -> {
+			sum=sum+1;
+           System.out.println(sum);
+ 
+        });
+
+		
+	}
+
+	public static void main(String[] args) {
+		JButton button = new JButton("10번누르면 빡빡이");
+		MyFrame mf = new MyFrame();
+		if(sum==10) {
+			System.out.println("나는빡빡이다");
+			
+		}
+
+		
+
+	}
+
+	}

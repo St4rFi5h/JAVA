@@ -1,0 +1,51 @@
+
+import java.util.*;
+
+public class Exjong {
+
+   public static void main(String[] args) {
+
+      Scanner sc = new Scanner(System.in);
+      ArrayList<Info> abc = new ArrayList<Info>();   
+      	int t = sc.nextInt();
+
+
+      for(;;) {
+         System.out.println("1: 입력 , 2: 출력, 3: 삭제, 4 : 종료");
+         int choice = sc.nextInt();
+         Info i;
+         if (choice ==1) {
+            i = new Info();
+            System.out.println("이름?");
+            i.name =sc.next();
+            System.out.println("나이?");
+            i.number =sc.nextInt();
+            abc.add(i);   
+         }
+
+         if(choice ==2) {
+            System.out.println("몇번째꺼 볼래요?");
+            for(int i=0; i<abc.size; i++) {
+            	System.out.println(abc(i));
+            }
+            choice = sc.nextInt();
+            {   
+            System.out.println("이름 : "+abc.get(choice-1).name);
+            System.out.println("나이 : "+abc.get(choice-1).number);
+            }
+
+         }
+         if(choice ==3) {
+            System.out.println("몇번째꺼 삭제할래여?");
+            choice = sc.nextInt();
+            {
+               abc.remove(choice-1);               
+            }
+         }
+         if(choice ==4) {
+            sc.close();
+            break;
+         }
+      }
+   }
+}

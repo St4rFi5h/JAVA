@@ -1,0 +1,26 @@
+import javax.swing.JButton;
+import javax.swing.JFrame;
+public class MyFrame extends JFrame {
+	MyFrame(){
+		JButton button = new JButton("버튼");
+		
+		setTitle("첫번쨰 프레임");
+		setSize(400,300);
+		setVisible(true);
+		this.add(button);
+		button.setBounds(30, 170, 122, 30);
+		button.addActionListener(event -> {
+           System.out.println("나는빡빡이다");
+        });
+
+		
+	}
+
+	public static void main(String[] args) {
+		MyFrame mf = new MyFrame();
+
+		
+
+	}
+
+}

@@ -1,0 +1,35 @@
+import java.util.Scanner;
+class Sample {
+	Scanner scan = new Scanner(System.in);
+	public String name ;
+
+
+
+	public Sample() {
+		this.name = "종웅";
+	}
+	public void Input() {
+
+
+		System.out.println("학생 이름을 입력해주세요.>>");
+		this.name=scan.next();
+	}
+
+	public void Print() {
+
+		System.out.println("학생이름: " + this.name);
+	}
+
+	public static class Pro01 {
+
+
+		public static void main (String[] args) {
+
+			Sample s = new Sample();
+			s.Input();
+			s.Print();
+
+		}
+
+	}
+}

@@ -1,0 +1,6 @@
+
+public class People {
+		public String name = "น้มพฟ๕";
+		public String ssn = "12321312-21312321";
+		public int studentNo = 5;
+}

@@ -1,0 +1,7 @@
+package test01.inet;
+import test01.inet.InetAddressEX2;
+public class Main {
+ public static void main(String[]args) {
+	 new InetAddressEX2().testInetAddress("www.oracle.com")
+ }
+}

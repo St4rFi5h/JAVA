@@ -1,0 +1,33 @@
+import java.util.*;
+
+public class Ex05 {
+
+	public static void main(String[] args) {
+		while(true) {
+			ArrayList<Info> list = new ArrayList<Info>();
+			Scanner scan = new Scanner(System.in);
+			
+			System.out.println("번호누르세요 등록 1 , 출력 2  , 종료 3");
+			
+			int a = scan.nextInt();
+			Info in;
+			if (a== 1) {
+			 in = new Info ();	 
+				in.name = "hanna";
+				in.number = 1234;
+				list.add(in); 
+			}
+
+			if(a==2) 
+			{
+
+				System.out.println (list.get(0).name);
+	}
+			if(a==3) {
+				System.out.println("종료합니다");
+				break;
+			}
+		}
+
+	}
+}

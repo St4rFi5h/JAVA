@@ -1,0 +1,23 @@
+import javax.swing.JButton;
+import javax.swing.JFrame;
+public class MyFrame extends JFrame {
+	MyFrame(){
+		JButton button = new JButton("버튼");
+		
+		setTitle("첫번쨰 프레임");
+		setSize(800,800);
+		setVisible(true);
+		this.add(button);
+		setSize(300, 200);
+
+		
+	}
+
+	public static void main(String[] args) {
+		MyFrame mf = new MyFrame();
+
+		
+
+	}
+
+}

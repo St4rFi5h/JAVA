@@ -1,0 +1,22 @@
+import java.util.Scanner;
+class Sample {
+	
+	
+}
+public class Pro01 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		//변수지정
+		String sinMinA="hanna";
+		
+		//학생이름 입력
+		System.out.println("학생 이름을 입력해주세요.>>");
+		sinMinA=scan.next();
+		
+		//학생 정보 출력
+		System.out.println("학생이름: " + sinMinA);
+
+	}
+
+}

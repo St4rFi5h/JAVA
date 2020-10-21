@@ -1,0 +1,30 @@
+package com.minigame;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class GameMenu {
+
+	public GameMenu() {
+		Scanner sc = new Scanner(System.in);
+		ArrayList<User> usr = new ArrayList<User>();   
+		int t ;
+		while(true) {
+			System.out.println("미니게임 메뉴를 골라주세요");
+			System.out.println("1. 유저등록");
+			System.out.println("2. 야구게임");
+			System.out.println("3. 미공개게임");
+			t=sc.nextInt();
+			User usr;
+			if(t==1) {
+				usr.name = sc.next();
+	
+				System.out.println("유저 이름을 입력해주세요");
+
+				
+				
+				
+			}
+		}
+	}
+}

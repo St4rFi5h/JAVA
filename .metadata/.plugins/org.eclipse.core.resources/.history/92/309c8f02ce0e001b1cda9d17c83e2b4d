@@ -1,0 +1,28 @@
+import java.util.Scanner;
+public class Practice {
+	int color ; 
+	String strColor;
+	Scanner s = new Scanner (System.in);
+
+
+	public Practice(){
+		strColor="�ʱⰪ";
+		color = 1;
+				
+
+	}
+
+	public void print(String n,int a) {
+			System.out.println(strColor,color);
+	}
+	
+	
+	public static void main(String[] args) {
+		System.out.println(color);
+		System.out.println(strColorr);
+		
+		
+	}
+	
+}
+

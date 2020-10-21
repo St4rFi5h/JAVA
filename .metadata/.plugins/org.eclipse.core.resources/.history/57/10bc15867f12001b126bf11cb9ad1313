@@ -1,0 +1,10 @@
+package text06.generics08;
+
+public class StaticEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,47 @@
+package test06.generics02;
+
+class Apple{
+	public String toString() {
+		return"I am an apple";
+	}
+}
+
+
+class Orange {
+	public String toString() {
+		return "I am an Orange";
+	}
+}
+
+
+class Box{
+	private Object ob;
+	public void set (Object o) {
+		ob = o;
+	}
+	
+	
+	public Object get() {
+		return ob;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+public class FruitAndBox2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,27 @@
+interface Show{
+	public void show();
+}
+
+class Test1 implements Show {
+	public void show() {
+		System.out.println("show 실행");
+	}
+
+
+	public class Sample02{
+		public static void main(String[]args) 
+		{
+
+			Test1 t = new Test1();
+			t.show();
+
+			Show s = new Show() {
+				public void show() {
+					System.out.println("무명클래스 show 실행");
+				}
+			};
+			s.show();
+		}
+	}
+
+

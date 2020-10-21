@@ -1,0 +1,10 @@
+package test06.generics06;
+
+public class BoundedBox {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

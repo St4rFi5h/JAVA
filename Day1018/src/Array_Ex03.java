@@ -1,0 +1,25 @@
+
+public class Array_Ex03 {
+	
+	public static void main(String[] args) {
+		
+		int arr [][] = new int [5][5];
+		
+		
+		for(int i=0; i<arr.length; i++) {
+			for(int j=0; j<arr[i].length; j++) {
+				arr[i][j] = i+j+1;
+				if(arr[i][j]>5) {
+					arr[i][j] =0;
+				}
+			}
+		}
+		
+		for(int i=0; i<arr.length; i++) {
+			for(int j =0; j<arr[i].length; j++) {
+				System.out.printf("%3d", arr[i][j]);
+			}
+			System.out.println("");
+		}
+	}
+}

@@ -1,0 +1,11 @@
+
+public class Ex01 {
+	public static void main(String[]args) {
+		String strVar1 = new String("Ω≈πŒ√∂");
+		String strVar2 = "Ω≈πŒ√∂";
+		
+		if(strVar1 == strVar2) {
+			System.out.println("∞∞¿Ω");
+		}
+	}
+}

@@ -1,0 +1,21 @@
+package com.minigame;
+
+public class User extends Score {
+	public String name;
+	public int coin;
+
+	
+	public User(String name, int coin){
+		
+	}
+	/*public static void main(String[]args) {
+		User usr = new User();
+		
+	}
+*/
+	
+	
+	void PrintUser(){
+		System.out.println("이름: "+name+""+ "코인갯수 :"+ coin);
+	}
+}
